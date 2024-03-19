@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.CAB.ConsoleApp", "Metalhead.Examples.Hosting.CAB.ConsoleApp\Metalhead.Examples.Hosting.CAB.ConsoleApp.csproj", "{505BEB57-5DE1-46FC-B40C-251212D96B10}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.CB.Api", "Metalhead.Examples.Hosting.CB.Api\Metalhead.Examples.Hosting.CB.Api.csproj", "{7189FF42-14C9-499E-BA18-CCAEE8771DD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{505BEB57-5DE1-46FC-B40C-251212D96B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505BEB57-5DE1-46FC-B40C-251212D96B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505BEB57-5DE1-46FC-B40C-251212D96B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7189FF42-14C9-499E-BA18-CCAEE8771DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7189FF42-14C9-499E-BA18-CCAEE8771DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7189FF42-14C9-499E-BA18-CCAEE8771DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7189FF42-14C9-499E-BA18-CCAEE8771DD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
