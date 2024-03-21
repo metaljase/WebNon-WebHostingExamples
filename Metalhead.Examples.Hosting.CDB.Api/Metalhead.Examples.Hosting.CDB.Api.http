@@ -1,0 +1,16 @@
+@Metalhead.Examples.Hosting.CDB.Api_HostAddress = http://localhost:5045
+
+GET {{Metalhead.Examples.Hosting.CDB.Api_HostAddress}}/weathersettings/
+Accept: application/json
+
+###
+
+GET {{Metalhead.Examples.Hosting.CDB.Api_HostAddress}}/weatherforecastdata/
+Accept: application/json
+
+###
+
+GET {{Metalhead.Examples.Hosting.CDB.Api_HostAddress}}/weatherforecastdata/2
+Accept: application/json
+
+###
