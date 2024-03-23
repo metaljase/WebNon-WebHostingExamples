@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.CDB.Api", "Metalhead.Examples.Hosting.CDB.Api\Metalhead.Examples.Hosting.CDB.Api.csproj", "{8EA1C017-1AA4-419B-A570-9B419B90537F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalhead.Examples.Hosting.CDB.ConsoleApp", "Metalhead.Examples.Hosting.CDB.ConsoleApp\Metalhead.Examples.Hosting.CDB.ConsoleApp.csproj", "{CE698792-1A4E-4284-9AB7-C0A8886537D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8EA1C017-1AA4-419B-A570-9B419B90537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA1C017-1AA4-419B-A570-9B419B90537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA1C017-1AA4-419B-A570-9B419B90537F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE698792-1A4E-4284-9AB7-C0A8886537D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE698792-1A4E-4284-9AB7-C0A8886537D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE698792-1A4E-4284-9AB7-C0A8886537D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE698792-1A4E-4284-9AB7-C0A8886537D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
