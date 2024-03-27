@@ -29,15 +29,15 @@ Log files for the console apps are written to the build output directory.  Log f
 Each of the hosts demonstrated ([Host.CreateDefaultBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.host.createdefaultbuilder?view=dotnet-plat-ext-8.0), [Host.CreateApplicationBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.host.createapplicationbuilder?view=dotnet-plat-ext-8.0), and [WebApplication.CreateBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication.createbuilder?view=aspnetcore-8.0)) load app settings as default.  Therefore, **it is often unnecessary to write additional code to load app settings**.
 
 The host loads ***host*** configuration from the following sources (in order):
-1. Environment variables.
-2. Command-line arguments.
+1. Environment variables
+2. Command-line arguments
 
 Next, the host loads ***app*** configuration from the following sources (in order):
 1. `appsettings.json`
 2. appsettings.\{Environment\}.json (e.g. `appsettings.Development.json`)
 3. User secrets
 4. Environment variables
-5. Command-line arguments.
+5. Command-line arguments
 
 Any values for settings that are set in subsequent sources override values set in previous sources. For example, if 'WindSpeedUnit' is set to 'MPH' in `appsettings.json`, but is set to 'KPH' via command-line arguments, then 'KPH' will be used.
 
