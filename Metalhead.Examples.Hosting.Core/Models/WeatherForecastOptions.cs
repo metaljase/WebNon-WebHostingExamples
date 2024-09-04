@@ -11,11 +11,11 @@ public class WeatherForecastOptions
 
     [Required(ErrorMessage = $"{nameof(NumberOfDays)} is required.")]
     [Range(1, 7, ErrorMessage = $"{nameof(NumberOfDays)} must be between 1 and 7.")]
-    public int NumberOfDays { get; set; }
+    public required int NumberOfDays { get; set; }
 
     [Required(ErrorMessage = $"{nameof(TemperatureScale)} is required.")]
     [AllowedValues("C", "F", ErrorMessage = $"{nameof(TemperatureScale)} must be either 'C' or 'F'.")]
-    public string TemperatureScale { get; set; } = string.Empty;
+    public required string TemperatureScale { get; set; }
 
     [Required(ErrorMessage = $"{nameof(WindSpeedUnit)} is required.")]
     [AllowedValues("MPH", "KPH", "KN", ErrorMessage = $"{nameof(WindSpeedUnit)} must be either 'MPH', 'KPH', or 'KN'.")]

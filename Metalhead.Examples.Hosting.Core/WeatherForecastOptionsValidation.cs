@@ -6,10 +6,8 @@ using Metalhead.Examples.Hosting.Core.Models;
 
 namespace Metalhead.Examples.Hosting.Core;
 
-public class WeatherForecastOptionsValidation(IConfiguration config) : IValidateOptions<WeatherForecastOptions>
+public class WeatherForecastOptionsValidation() : IValidateOptions<WeatherForecastOptions>
 {
-    public WeatherForecastOptions? Config { get; private set; } = config.GetSection(WeatherForecastOptions.Settings).Get<WeatherForecastOptions>();
-
     public ValidateOptionsResult Validate(string? name, WeatherForecastOptions options)
     {
         List<ValidationResult> validationResults = [];
